@@ -1,27 +1,91 @@
-*{
-    flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
-    color: white;
-    width: 100%;
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #6a11cb, #2575fc);
 }
-#main{
+
+.card {
+    background: linear-gradient(to bottom right, #6b73ff, #000dff);
+    color: #333;
+    border-radius: 20px;
+    padding: 30px 20px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+*/
+.quiz-title {
+    font-size: 28px;
+    color: #290650;
+    margin-bottom: 10px;
+}
+
+.quiz-subtitle {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.question-text {
+    font-size: 20px;
+    color: #444;
+    background-color: #f8f8f8;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.answer-btn {
+    background: #eee;
+    color: #333;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.answer-btn:hover {
+    background: #6a11cb;
+    color: white;
+    transform: scale(1.05);
+}
+
+.next-btn {
+    background: #6a11cb;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background 0.3s ease-in-out;
     align-items: center;
     text-align: center;
-    border: 1px solid black;
-    background-color:#007bff ;
-    width: auto;
-    height: auto;
-    margin: 15rem;
-    margin-left: 15rem;
 }
-button{
-    background-color: white;
-    color: #007bff;
-    border-radius: 10px;
-    padding: 5px;
-    margin: 1px;
+
+.next-btn:hover {
+    background: #4c09a7;
+    transform: scale(1.05);
 }
-body{
-    background-color: #fcd734;
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 20px;
 }
+
