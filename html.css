@@ -4,6 +4,7 @@
     align-items: center;
     min-height: 100vh;
     background: linear-gradient(to bottom right, #6a11cb, #2575fc);
+    font-family: 'Poppins', sans-serif;
 }
 
 .card {
@@ -11,16 +12,16 @@
     color: #333;
     border-radius: 20px;
     padding: 30px 20px;
-    width: 90%;
-    max-width: 500px;
+    width: 250px;
+    max-width: 900px;
+    height: 550px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
     text-align: center;
 }
 
-*/
 .quiz-title {
     font-size: 28px;
-    color: #290650;
+    color: white;
     margin-bottom: 10px;
 }
 
